@@ -1,0 +1,19 @@
+{
+    "name": "sanjeevscet/timezones",
+    "description": "This is my Timezone packages",
+    "authors": [
+        {
+            "name": "Sanjeev Kumar",
+            "email": "skumar01@goavega.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+     "extra": {
+        "laravel": {
+            "providers": [
+                "Sanjeevscet\\Timezones\\TimezonesServiceProvider"
+            ]
+        }
+    }
+}
