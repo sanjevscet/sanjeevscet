@@ -15,5 +15,10 @@
                 "Sanjeevscet\\Timezones\\TimezonesServiceProvider"
             ]
         }
-    }
+    },
+    "autoload": {
+        "psr-4": {
+            "Sanjeevscet\\Timezones\\": "src/"
+        }
+    },
 }
